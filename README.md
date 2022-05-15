@@ -1,3 +1,3 @@
 # Projects
-- Balancing www.mcookaai.github.io/balancing
+- Balancing (www.mcookaai.github.io/balancing)
 - 
