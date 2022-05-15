@@ -5,4 +5,4 @@
 
 
 # About me
-- [CV](???/Martin-Cook_cv.docx)
+- [Info](/cv)
