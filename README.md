@@ -4,4 +4,4 @@
 - [Game Engine](/game-engine)
 
 # About me
-- [CV](/cv)
+- [CV](/Martin-Cook_cv.docx)
