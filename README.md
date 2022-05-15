@@ -1,7 +1,8 @@
 # Projects
 - [Balancing](/balancing)
-- [Route Optimisation](/route-optimisation)
 - [Game Engine](/game-engine)
+- [Route Optimisation](/route-optimisation)
+
 
 # About me
 - [CV](???/Martin-Cook_cv.docx)
