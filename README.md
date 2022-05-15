@@ -1,5 +1,5 @@
 # Projects
-- Balancing www.mcookaai.github.io/balancing
+- [Balancing](/balancing)
 - [Route Optimisation](/route-optimisation)
 - [Game Engine](/game-engine)
 
