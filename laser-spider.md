@@ -1,4 +1,5 @@
 ## Laser Spider
+### C++ Game
 
 The challenge here was to learn how to create a game in C++.
 
