@@ -7,5 +7,4 @@ https://user-images.githubusercontent.com/71826144/168499364-a6f8f3b4-3104-47a2-
 
 [Code available here]()
 
-Balancing.mp4
-https://github.com/MCookAAI/MCookAAI.github.io/blob/main/docs/Balancing.mp4
+[Balancing](https://github.com/MCookAAI/MCookAAI.github.io/blob/main/docs/Balancing.mp4)
