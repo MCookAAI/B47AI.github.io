@@ -7,7 +7,5 @@ This was an AI project, completed in Unity, training agents to balance a ball on
 
 [Code available here]()
 
-[See the balancing in action!]
-
-https://user-images.githubusercontent.com/71826144/168500656-6020de36-bebd-46f1-83a1-a240e082f15f.mp4
+[See the balancing in action!](https://user-images.githubusercontent.com/71826144/168500656-6020de36-bebd-46f1-83a1-a240e082f15f.mp4)
 
