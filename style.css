@@ -1,0 +1,21 @@
+body {
+    background-color: #4CAF50; /* Green background */
+    font-family: Arial, sans-serif; /* Default font */
+    color: white; /* Adjust text color for readability */
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #3E8E41; /* Darker green for contrast */
+}
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif; /* Example custom font */
+}
+
+main {
+    padding: 20px;
+}
