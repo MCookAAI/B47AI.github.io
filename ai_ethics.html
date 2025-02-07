@@ -15,6 +15,23 @@
     </header>
     
     <main>
+        <img src="academic_poster.jpg" class="poster" onclick="openPoster(this.src)">
+        <div id="posterFullscreen" class="fullscreen hidden" onclick="closePoster()">
+            <img id="posterImage">
+        </div>
+
+        <script>
+        function openPoster(src) {
+            document.getElementById("posterImage").src = src;
+            document.getElementById("posterFullscreen").classList.remove("hidden");
+        }
+
+        function closePoster() {
+            document.getElementById("posterFullscreen").classList.add("hidden");
+        }
+        </script>
+
+        
         <section>
             <h2>Project Overview</h2>
             <p>This project explores the ethical implications of AI-driven decision-making in medical emergencies, using data from the widely studied 'Moral Machine' dataset.</p>
