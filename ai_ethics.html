@@ -18,9 +18,16 @@
     <main>
         <section>
             <h2>Project Image</h2>
-            <img src="AcademicPoster.png" class="poster" onclick="openPoster(this.src)"
-                 style="width: 560px; height: 315px; object-fit: fill;">
+            <div style="width: 560px; height: 315px; overflow: hidden;">
+                <img src="AcademicPoster.png" class="poster" onclick="openPoster(this.src)"
+                     style="width: 100%; height: 100%; object-fit: cover; display: block;">
+            </div>
         </section>
+
+        <!-- Fullscreen Popup for Image -->
+        <div id="posterFullscreen" class="fullscreen hidden" onclick="closePoster()">
+            <img id="posterImage">
+        </div>
 
         <script>
         function openPoster(src) {
