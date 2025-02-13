@@ -6,6 +6,13 @@
     <title>Predator-Prey Simulation</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
+<script>
+    document.getElementById("theme-select").addEventListener("change", function() {
+        document.body.className = this.value;
+    });
+</script>
+
 <body>
     <header>
         <h1>Predator-Prey Simulation</h1>
@@ -13,6 +20,14 @@
             <a href="index.html">Home</a>
         </nav>
     </header>
+
+    <label for="theme-select">Choose Theme:</label>
+    <select id="theme-select">
+        <option value="dark-neon">Dark Neon</option>
+        <option value="minimalist">Minimalist</option>
+        <option value="futuristic">Futuristic</option>
+    </select>
+    
     <main>
         <section>
             <h2>Project Video</h2>
