@@ -12,7 +12,14 @@
         <h1>Welcome to my AI Portfolio</h1>
         <p>Exploring AI applications in ethics, simulations, and game development.</p>
     </header>
-    
+
+    <label for="theme-select">Choose Theme:</label>
+    <select id="theme-select">
+        <option value="dark-neon">Dark Neon</option>
+        <option value="minimalist">Minimalist</option>
+        <option value="futuristic">Futuristic</option>
+    </select>
+
     <main>
         <section>
             <h2>Projects</h2>
@@ -28,5 +35,14 @@
     <footer>
         <p>&copy; 2025 MCookAAl. All rights reserved.</p>
     </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            document.getElementById("theme-select").addEventListener("change", function () {
+                document.body.className = this.value;
+            });
+        });
+    </script>
+    
 </body>
 </html>
