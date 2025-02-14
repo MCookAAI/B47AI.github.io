@@ -42,5 +42,24 @@
         <p>&copy; 2025 MCookAAI Portfolio</p>
     </footer>
 
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const themeSelect = document.getElementById("theme-select");
+    
+            // Apply saved theme when the page loads
+            const savedTheme = localStorage.getItem("selectedTheme");
+            if (savedTheme) {
+                document.body.className = savedTheme;
+                themeSelect.value = savedTheme;
+            }
+    
+            // Change theme and save it to localStorage
+            themeSelect.addEventListener("change", function () {
+                document.body.className = this.value;
+                localStorage.setItem("selectedTheme", this.value);
+            });
+        });
+    </script>
+
 </body>
 </html>
