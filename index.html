@@ -38,11 +38,31 @@
 
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-            document.getElementById("theme-select").addEventListener("change", function () {
-                document.body.className = this.value;
-            });
+            const themeSelect = document.getElementById("theme-select");
+    
+            // Function to apply the theme
+            function applyTheme(theme) {
+                document.body.className = theme;
+                localStorage.setItem("selectedTheme", theme); // Save to localStorage
+            }
+    
+            // Apply saved theme when the page loads
+            const savedTheme = localStorage.getItem("selectedTheme");
+            if (savedTheme) {
+                document.body.className = savedTheme;
+                if (themeSelect) {
+                    themeSelect.value = savedTheme;
+                }
+            }
+    
+            // Change theme when user selects a new option
+            if (themeSelect) {
+                themeSelect.addEventListener("change", function () {
+                    applyTheme(this.value);
+                });
+            }
         });
     </script>
-    
+
 </body>
 </html>
